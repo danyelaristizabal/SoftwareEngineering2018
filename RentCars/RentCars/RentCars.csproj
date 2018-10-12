@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CarParl.cs" />
+    <Compile Remove="MainClass.cs" />
+    <Compile Remove="Class.cs" />
+    <Compile Remove="CarFacade.cs" />
+    <Compile Remove="CostumerFacade.cs" />
+    <Compile Remove="Console.cs" />
+    <Compile Remove="Console.cs" />
+    <Compile Remove="RepositoryInterface.cs" />
+    <Compile Remove="CostumerRepository.cs" />
+    <Compile Remove="RentsRepository.cs" />
+    <Compile Remove="Endpoint.cs" />
+  </ItemGroup>
+</Project>
